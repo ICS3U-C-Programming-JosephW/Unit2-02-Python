@@ -9,11 +9,14 @@ import constants
 
 
 def main():
+    # Set tau.
+    TAU = constants.TAU
+
     # Get the radius from the user.
     radius = float(input("Enter the radius of the circle in (cm): "))
 
     # Calculate the circumference.
-    circumference = constants.TAU * radius
+    circumference = TAU * radius
 
     # Display the circumference.
     print(f"\nCircumference = {circumference} cm")
